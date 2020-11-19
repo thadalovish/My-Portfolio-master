@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98255924-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('set', {'user_id': 'USER_ID'});
+
+        gtag('config', 'UA-98255924-2', {
+            'optimize_id': 'GTM-TFH8W8T'
+        });
+    </script>
+
+    <title>404 - Lovish Thada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Alice|Playfair+Display:700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#141E30">
+    <link rel="icon" href="images/icon.png?v=6">
+
+    <style>
+        body {
+            background: #e8e8e8;
+            font-family: 'Alice', serif;
+            color: #141E30;
+            margin: 5vw 20vw;
+            padding: 0;
+        }
+
+        * {
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 4em;
+            color: #141E30;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 80%;
+        }
+
+        @media only screen and (max-width: 500px) {
+            body {
+                margin: 20vw 15vw;
+            }
+
+            .video-container iframe,
+            .video-container object,
+            .video-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        a {
+            color: #141E30;
+            text-decoration: none;
+        }
+
+        .link {
+            position: relative;
+        }
+
+        .link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            display: block;
+            margin-top: -2px;
+            right: 0;
+            background: #141E30;
+            transition: width .5s ease;
+            -webkit-transition: width .5s ease;
+        }
+
+        .link:hover:after {
+            width: 100%;
+            left: 0;
+            background: #141E30;
+        }
+
+        ::selection {
+            background-color: #141E30;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background: #141E30;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #141E30;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #141E30;
+        }
+
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: #141E30;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="middle">
+        <div>
+            <img src="./images/404.svg" style="width: 30%;">
+            <h2>The page you are looking for doesn't exist.</h2>
+            Click <a href="./index" class="link">here</a> to go to the homepage or watch live puppies instead.<br><br>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/RTfKYDIhlVE" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5c874c0d101df77a8be21a4a/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
